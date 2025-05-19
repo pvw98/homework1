@@ -1,4 +1,3 @@
-```markdown
 # Timeseries analysis and forecasting based on TOAR data
 
 The [Tropospheric Ozone Assessment Report (TOAR)](https://igacproject.org/activities/TOAR) is an international research activity to provide globally consistent information on the distribution and trends of the air pollutant ozone in the lower part of the atmosphere. Ozone impacts human health, vegetation, and climate, and TOAR provides the data and analyses to quantify the damage caused by ozone.
@@ -16,4 +15,3 @@ The notebooks in this folder are structured as follows:
 Note that these notebooks focus primarily on monovariate forecasting tasks (i.e. one variable at a time), so they ignore possible correlations among different variables. Extension to multivariate models is left as an exercise to the reader.
 
 Authors: Sindhu Vasireddy and Martin Schultz, Jülich, May 2025
-```

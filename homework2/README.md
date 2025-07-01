@@ -30,6 +30,9 @@ In the third task, I made the assumption (as mentioned in the code comments) tha
 ```python
 X_combined_train[:, context_window:, 1] = y_temp_train  
 X_combined_test[:, context_window:, 1] = y_temp_test
+
+# to this
+
 X_combined_train[:, :context_window, 1] = X_temp_train  
 X_combined_test[:, :context_window, 1] = X_temp_test
 

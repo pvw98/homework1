@@ -13,6 +13,8 @@ These files are publicly available in the following Google Drive folder:
 In the experiments, I plotted several sample predictions to identify potential differences across the tasks. However, no significant differences were visible.  
 In the final notebook, you will see samples with indices **0**, **5**, and **10**.
 
+In the separate notebook `7_multi_model_plotting`, I also plotted test samples with indices **0**, **50**, and **100**.
+
 Based on the provided Drive folder, reproducing the experiments should not be a problem.  
 If any issues arise, feel free to reach out.
 
@@ -28,14 +30,8 @@ In the third task, I made the assumption (as mentioned in the code comments) tha
 ```python
 X_combined_train[:, context_window:, 1] = y_temp_train  
 X_combined_test[:, context_window:, 1] = y_temp_test
-```
-
-should instead be written as:
-
-```python
 X_combined_train[:, :context_window, 1] = X_temp_train  
 X_combined_test[:, :context_window, 1] = X_temp_test
 
 X_combined_train[:, context_window:, 1] = y_temp_train  
 X_combined_test[:, context_window:, 1] = y_temp_test
-```

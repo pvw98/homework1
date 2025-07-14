@@ -1,3 +1,5 @@
+Note: Although only one method was required, I additionally implemented the MLP version for all three tasks. This was done retrospectively to enable better comparison and because the MLP models are also included in the 7_multi_model_plotting notebook. The main submission remains the LSTM version, which includes a concluding explanation.
+
 In the provided notebook `lstm`, all three tasks are included: **monovariate**, **multivariate**, and **future temperature**.  
 The prepared dataset files (`.pkl`) are:
 
